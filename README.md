@@ -76,6 +76,23 @@ University Registrar: Create an app for a University registrar to keep track of 
     <td>False</td>
   </tr>
 <table>
+
+## Setup and Use
+
+### Prerequisites
+* Understanding of Markdown and HTML languages 
+* Option 1: [VisualStudioCode](https://www.npmjs.com/)
+
+### Installation 
+1. Navigate to 
+2. Clone the repository:
+
+### Use 
+* Use preferred IDE or Text Editor to review documentation 
+
+### MVP 
+* VisualStudio Code 
+
   
 
 
