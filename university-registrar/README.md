@@ -25,7 +25,7 @@
 ## About the Project
 
 ### Description
-University Registrar: Create an app for a University registrar to keep track of students and courses
+University Registrar: Create an app for a University registrar to keep track of students and courses. This application is for University admins.
 
 ## Known Bugs
 
