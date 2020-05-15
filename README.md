@@ -85,9 +85,6 @@ University Registrar: Create an app for a University registrar to keep track of 
 1. Navigate to 
 2. Clone the repository:
 
-### Use 
-* Use preferred IDE or Text Editor to review documentation 
-
 ### MVP 
 * VisualStudio Code 
 
