@@ -18,4 +18,17 @@ function StudentList() {
       body: JSON.stringify(student)
     })
   }
+
+  async function get() {
+    await fetch(`http://localhost:5000/api/Students`)
+      .then(response => response.json())
+      .then((jsonifiedResponse) => {
+        setStudentList(jsonifiedResponse);
+      })
+      .catch((error) => {
+        setError(error);
+      });
+  }
+
+  // async function editStudent
 }
