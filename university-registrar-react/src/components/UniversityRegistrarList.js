@@ -30,5 +30,16 @@ function StudentList() {
       });
   }
 
-  // async function editStudent
+  async function deleteStudent(id) {
+    await fetch(`http://localhost:5000/api/Students/${id}`, {
+      method: 'DELETE'
+    })
+      .then(response => response.json())
+      .then((jsonifiedResponse) => {
+        setStudentList(jsonifiedResponse);
+      })
+      .catch((error) => {
+        setError(error);
+      });
+  }
 }
