@@ -33,8 +33,6 @@ University Registrar: Create an app for a University registrar to keep track of 
 
 --------------------------------
 
-## Scope
-
 ### Use Case 
 <details>
 <summary>Expand Use Case </summary>
