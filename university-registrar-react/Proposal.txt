@@ -10,12 +10,8 @@ Main users: admins
 Purpose of the project: Make it easier for students to select courses based on their major requirements.
 
 Minimum Viable Product:
-- User Registration
-- User login/sign-out
-- Capability to add, update, and remove courses
-- Capability to add and remove courses as students
+- Capability to add, update, and remove courses (Full CRUD)
 - Capability to add name and date enrolled
-- Capability to detect any schedule conflicts
 
 
 Tools for MVP: 
@@ -26,6 +22,9 @@ MySQL backend
 
 Additional Features
 (If you finish developing your MVP and have time to spare, what features do you want to work on next? Be specific.)
+- Capability to detect any schedule conflicts
+- User Registration
+- User login/sign-out
 - Focused on the UI to make it easy friendly for the User
 - Create departments. A student can be assigned to a department when they declare their major and a course can be assigned to a department when it is created.
 - List out all of the courses or all of the students in a particular department, so that I can inform the counselors which departments need more students and which need more courses.
