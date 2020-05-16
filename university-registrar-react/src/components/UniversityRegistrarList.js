@@ -40,10 +40,16 @@ function StudentList() {
       })
       .catch((error) => {
         setError(error);
-      });
+      })
   }
 
   async function editStudent(id, propsToUpdate) {
-    await fetch(`http://localhost:5000/api/Students/${id}`)
+    await fetch(`http://localhost:5000/api/Students/${id}`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(propsToUpdate);
+    })
   }
 }
