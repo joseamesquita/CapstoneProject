@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace UniversityRegistrar.Models
 {
@@ -21,6 +22,8 @@ namespace UniversityRegistrar.Models
 
     [Required]
     public int CurrentYear { get; set; }
+
+
 
   }
 }
