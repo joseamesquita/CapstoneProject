@@ -47,6 +47,31 @@ namespace UniveristyRegistrar.Controllers
       }
       return query.ToList();
     }
-
+    [HttpPost]
+    public void Post([FromBody] Student student)
+    {
+      _db.Students.Add(student);
+      _db.SaveChanges();
+    }
+    // GET api/students/1
+    [HttpGet("{id}")]
+    public ActionResult<Student> Get(int id)
+    {
+      return _db.Students.FirstOrDefault(entry => entry.StudentId == id);
+    }
+    [HttpPut("{id}")]
+    public void Put(int id, [FromBody] Student student)
+    {
+      student.StudentId = id;
+      _db.Entry(student).State = EntityState.Modified;
+      _db.SaveChanges();
+    }
+    [HttpDelete]
+    public void Delete(int id)
+    {
+      var studentToDelete = _db.Students.FirstOrDefault(entry => entry.StudentId == id);
+      _db.Students.Remove(studentToDelete);
+      _db.SaveChanges();
+    }
   }
 }
