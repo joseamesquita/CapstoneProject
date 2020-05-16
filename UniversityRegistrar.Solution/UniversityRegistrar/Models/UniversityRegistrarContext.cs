@@ -17,6 +17,7 @@ namespace UniveristyRegistrar.Models
       builder.Entity<Student>()
       .HasData(
         new Student { StudentId = 1, StudentName = "Jose", DateEnrolled = "September 27, 2016", Major = "Mathematics & Computer Science", CurrentTerm = "Fall", CurrentYear = 2016 }
+        new Student { StudentId = 2, StudentName = "Anthony", DateEnrolled = "September 27, 2016", Major = "Mathematics", CurrentTerm = "Fall", CurrentYear = 2016 }
       );
     }
   }
