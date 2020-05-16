@@ -49,7 +49,9 @@ function StudentList() {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(propsToUpdate);
+      body: JSON.stringify(propsToUpdate)
     })
   }
 }
+
+export default UniveristyRegistrarList;
