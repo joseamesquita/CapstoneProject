@@ -42,4 +42,8 @@ function StudentList() {
         setError(error);
       });
   }
+
+  async function editStudent(id, propsToUpdate) {
+    await fetch(`http://localhost:5000/api/Students/${id}`)
+  }
 }
