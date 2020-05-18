@@ -1,29 +1,22 @@
-using System.ComponentModel.DataAnnotations;
-using System.Collections.Generic;
-
 namespace UniversityRegistrar.Models
 {
   public class Student
   {
-    [Required]
     public int StudentId { get; set; }
 
-    [Required]
     public string StudentName { get; set; }
 
-    [Required]
     public string DateEnrolled { get; set; }
 
-    [Required]
     public string Major { get; set; }
 
-    [Required]
     public string CurrentTerm { get; set; }
 
-    [Required]
     public int CurrentYear { get; set; }
 
+    public int CourseId { get; set; }
 
+    public virtual Course Course { get; set; }
 
   }
 }
