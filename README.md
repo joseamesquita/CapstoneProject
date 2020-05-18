@@ -39,12 +39,8 @@ University Registrar: Create an app for a University registrar to keep track of 
 </details>
 
 ### Minimum-Viable Product (To Be Completed)
-  * User registration 
-  * User login/sign-out 
-  * Capability to add, update, and remove courses as admin 
-  * Capability to add and remove courses as students 
-  * Capability to add name and date enrolled 
-  * Capability to detect any schedule conflicts 
+  * Capability to add, update, and remove courses (Full CRUD)
+  * Capability to add name and date enrolled  
 
 ### Specs 
 
