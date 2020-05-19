@@ -1,23 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
-using UniveristyRegistrar.Models;
+using UniversityRegistrar.Models;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
-namespace UniveristyRegistrar.Controllers
+namespace UniversityRegistrar.Controllers
 {
   public class CoursesController : Controller
   {
-    private readonly UniveristyRegistrarContext _db;
+    private readonly UniversityRegistrarContext _db;
 
-    public CoursesController(UniveristyRegistrarContext db)
+    public CoursesController(UniversityRegistrarContext db)
     {
       _db = db;
     }
 
     public ActionResult Index()
     {
-      List<Course> model = _db.Courses.UniveristyRegistrar();
+      List<Course> model = _db.Courses.ToList();
       return View(model);
     }
 
@@ -27,6 +27,12 @@ namespace UniveristyRegistrar.Controllers
     }
 
     [HttpPost]
+    public ActionResult Create(Course course)
+    {
+      _db.Courses.Add(course);
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
     public ActionResult Details(int id)
     {
       Course thisCourse = _db.Courses.FirstOrDefault(course => course.CourseId == id);

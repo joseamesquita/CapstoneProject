@@ -2959,6 +2959,67 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "UniversityRegistrar",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Students/Create.cshtml",
+      "TargetPath": "Views\\Students\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Students/Details.cshtml",
+      "TargetPath": "Views\\Students\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Courses/Details.cshtml",
+      "TargetPath": "Views\\Courses\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Courses/Index.cshtml",
+      "TargetPath": "Views\\Courses\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Courses/Create.cshtml",
+      "TargetPath": "Views\\Courses\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Students/Index.cshtml",
+      "TargetPath": "Views\\Students\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Courses/Delete.cshtml",
+      "TargetPath": "Views\\Courses\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Students/Edit.cshtml",
+      "TargetPath": "Views\\Students\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Students/Delete.cshtml",
+      "TargetPath": "Views\\Students\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/JoseAmesquita/Desktop/CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/Views/Courses/Edit.cshtml",
+      "TargetPath": "Views\\Courses\\Edit.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

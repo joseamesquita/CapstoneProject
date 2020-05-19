@@ -1,8 +1,8 @@
 @{
   Layout = "_Layout";
 }
-
-@using UniveristyRegistrar.Models;
+@using System.Collections.Generic;
+@using UniversityRegistrar.Models;
 @model List<UniversityRegistrar.Models.Student>
   
 <h1>Students</h1>
@@ -14,7 +14,7 @@
 
 @foreach (Student student in Model)
 {
-  <li>@Html.ActionLink($"{student.StudentName}", "Details", new { id = student.StudentId}) | @student.Course.CourseName</li>
+  <li>@Html.ActionLink($"{student.StudentName}", "Details", new { id = student.StudentId }) | @student.Course.CourseName</li>
 }
 
 <p>@Html.ActionLink("Add New Student", "Create")</p>
