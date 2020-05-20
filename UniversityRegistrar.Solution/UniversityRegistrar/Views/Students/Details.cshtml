@@ -6,7 +6,13 @@
 
 <h2>Student Details</h2>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.StudentName): @Html.DisplayFor(model => model.StudentName)</h3>
+<h3>Student Name: @Html.DisplayFor(model => model.StudentName)</h3>
+<h3>Student ID: @Html.DisplayFor(model => model.StudentId)</h3>
+<h3>Student Major: @Html.DisplayFor(model => model.Major)</h3>
+<h3>Date Enrolled: @Html.DisplayFor(model => model.DateEnrolled)</h3>
+<h3>Current Term: @Html.DisplayFor(model => model.CurrentTerm)</h3>
+<h3>Current Year: @Html.DisplayFor(model => model.CurrentYear)</h3>
+
 <p>@Html.ActionLink("Back to list", "Index")</p>
 <p>@Html.ActionLink("Update Student Infomation", "Edit", new { id = Model.StudentId })</p>
 <p>@Html.ActionLink("Delete Student", "Delete", new { id = Model.StudentId })</p>

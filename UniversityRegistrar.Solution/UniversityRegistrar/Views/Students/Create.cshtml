@@ -10,6 +10,21 @@
 {
     @Html.LabelFor(model => model.StudentName)
     @Html.TextBoxFor(model => model.StudentName)
+    
+    @Html.LabelFor(model => model.StudentId)
+    @Html.TextBoxFor(model => model.StudentId)
+    
+    @Html.LabelFor(model => model.Major)
+    @Html.TextBoxFor(model => model.Major)
+    
+    @Html.LabelFor(model => model.DateEnrolled)
+    @Html.TextBoxFor(model => model.DateEnrolled)
+    
+    @Html.LabelFor(model => model.CurrentTerm)
+    @Html.TextBoxFor(model => model.CurrentTerm)
+    
+    @Html.LabelFor(model => model.CurrentYear)
+    @Html.TextBoxFor(model => model.CurrentYear)
 
     @Html.LabelFor(model => model.Course)
     @Html.DropDownList("CourseId")
