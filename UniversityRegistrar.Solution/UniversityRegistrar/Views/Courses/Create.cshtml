@@ -4,7 +4,10 @@
 
 @model UniversityRegistrar.Models.Course
 
-<h4>Add A New Course</h4>
+<div class="jumbotron">
+    <h1>Add A New Programming Course</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+</div>
 @using (Html.BeginForm())
 {
   @Html.LabelFor(model => model.CourseName)
