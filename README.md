@@ -9,11 +9,11 @@
 
 <p align = "center">
   <a href = "https://www.linkedin.com/in/joseamesquita/">
-    <img src = "https://img.shields.io/endpoint?color=blue&label=LinkedIn&logo=LinkedIn&style=social">
+    <img src = "https://img.shields.io/badge/-LinkedIn-black.svg?style=social&logo=linkedin">
   </a>
   || 
   <a href = "mailto: joseamesquita11@gmail.com.com">
-    <img src = "https://img.shields.io/endpoint?label=Gmail&logo=Gmail&style=social">
+    <img src = "https://img.shields.io/badge/-Gmail-black.svg?style=social&logo=gmail">
   </a>
 </p>
 --------------------------------
