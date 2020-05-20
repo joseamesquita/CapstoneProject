@@ -43,7 +43,7 @@
 ## About the Project
 
 ### Description
-University Registrar: Create an app for a University registrar to keep track of students and courses
+Coding Fundamentals: Create an appplication for students to learn how to code depending on their preference of programming language.
 
 ## Known Bugs
 
@@ -57,8 +57,8 @@ University Registrar: Create an app for a University registrar to keep track of 
 </details>
 
 ### Minimum-Viable Product (To Be Completed)
-  * Capability to add, update, and remove courses (Full CRUD)
-  * Capability to add name and date enrolled  
+  * Capability to add, update, and remove students (Full CRUD)
+  * Capability to add, update, and remove Programming Languages (Full CRUD)  
 
 ### Specs 
 
@@ -70,18 +70,18 @@ University Registrar: Create an app for a University registrar to keep track of 
   </tr>
   <tr>
     <td> User Story </td>
-    <td> As an Admin, I want to be able to add courses to the Reigistrar, so students can enrolled for the upcoming academic term.</td>
+    <td> As an Admin, I want to be able to add programming languages to the Registrar, so students can enrolled for the upcoming academic term.</td>
   <tr>
     <td>Behavior 01-A</td>
-    <td>User is able to browse the courses and select the course of their choice.</td>
+    <td>User is able to browse the programming languages and select the course of their choice.</td>
   </tr>
   <tr>
     <td>Input</td>
-    <td>"Add a Course"</td>
+    <td>"Add a Programming Language Course"</td>
   </tr>
   <tr>
     <td>Output</td>
-    <td>Query the courses that are offered in department selected</td>
+    <td>Query the programming language courses that are offered</td>
   </tr>
   <tr>
     <td>Completion</td>
