@@ -43,7 +43,7 @@ namespace UniversityRegistrar.Controllers
     public ActionResult Edit(int id)
     {
       var thisItem = _db.Students.FirstOrDefault(students => students.StudentId == id);
-      ViewBag.CourseId = new SelectList(_db.Courses, "CourseId", "CourseName");
+      // ViewBag.CourseId = new SelectList(_db.Courses, "CourseId", "CourseName");
       return View(thisItem);
     }
     [HttpPost]
