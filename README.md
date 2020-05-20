@@ -1,3 +1,21 @@
+
+<p align = "center">
+  <u><big> ** <b> Capstone Project: Coding Fundamentals </b></big><u>
+</p>
+
+<p align = "center">
+  <strong>Program Developed by: Jose Amesquita</strong>
+<p>
+
+<p align = "center">
+  <a href = "https://www.linkedin.com/in/joseamesquita/">
+    <img src = "https://img.shields.io/endpoint?color=blue&label=LinkedIn&logo=LinkedIn&style=social">
+  </a>
+  || 
+  <a href = "mailto: joseamesquita11@gmail.com.com">
+    <img src = "https://img.shields.io/endpoint?label=Gmail&logo=Gmail&style=social">
+  </a>
+</p>
 --------------------------------
 
 ### <u>Table of Contents</u>
