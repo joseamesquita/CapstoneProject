@@ -72,11 +72,12 @@
   </div>
   
   <div class="form-group row">
-    <input type="submit" value="Add New Student" class="btn btn-default" />
+    <input type="submit" value="Add New Student" class="btn btn-default col-md-2" style="background: transparent !important;" />
   </div>
   
   <div class="form-group row">
-  <p class="btn btn-default">@Html.ActionLink("List of All Students Enrolled", "Index", null, null, new { style = "color: Black;"})</p> 
+  <button style="background: transparent !important;" class="btn btn-default">@Html.ActionLink("List of All Students Enrolled", "Index", null, null, new { style = "color: Black;"})</button> 
   </div> 
+  
 }
 @* <p class="btn btn-default">@Html.ActionLink("List of All Students Enrolled", "Index")</p> *@

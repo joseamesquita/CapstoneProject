@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <div style = "background: linear-gradient(to bottom, #0066ff 0%, #99ff99 100%);">
+  <div style = "margin: 0; padding: 0; background: linear-gradient(to bottom, #0066ff 0%, #99ff99 100%);">
   <head>
     <meta charset="utf-8">
     <title>University Registrar</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
+  <body style = " background: #99ff99;">
     <nav class="navbar navbar-light bg-light">
         <div class="container">
             <div class="navbar-header navbar-light bg-light">
@@ -16,24 +16,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Coding Fundamentals", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Coding Fundamentals", "Index", "Home", new { area = "" }, new { @class = "navbar-brand", style = "color: Black;" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("For Students", "Create")</li>
-                    <li>@Html.ActionLink("Courses", "Create")</li>
+                    <li>@Html.ActionLink("Home", "Index", "Home", null, new { style = "color: Black;"})</li>
+                    <li>@Html.ActionLink("About", "About", "Home", null, new { style = "color: Black;"})</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", null, new { style = "color: Black;"})</li>
+                    <li>@Html.ActionLink("For Students", "Create", null, null, new { style = "color: Black;"})</li>
+                    <li>@Html.ActionLink("Courses", "Create", null, null, new { style = "color: Black;"})</li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="container body-content">
         @RenderBody()
-        <hr />
+        <hr/>
         <footer>
-            <p>&copy; @DateTime.Now.DayOfWeek @DateTime.Now.Month - @DateTime.Now.Day - @DateTime.Now.Year - Jose Amesquita</p>
+            <p style="text-align: center;">&copy; @DateTime.Now.DayOfWeek @DateTime.Now.Month - @DateTime.Now.Day - @DateTime.Now.Year - Jose Amesquita</p>
         </footer>
     </div>
   </body>
