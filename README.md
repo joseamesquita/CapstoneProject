@@ -88,6 +88,7 @@ Coding Fundamentals: Create an appplication for students to learn how to code de
     <td>False</td>
   </tr>
 <table>
+</details>
 
 ## Setup and Use
 
