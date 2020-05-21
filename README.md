@@ -69,25 +69,32 @@ Coding Fundamentals: Create an appplication for students to learn how to code de
   <tr>
     <th> Story 01 </th>
   </tr>
+  
   <tr>
     <td> User Story </td>
     <td> As an Admin, I want to be able to add programming languages to the Registrar, so students can enrolled for the upcoming academic term.</td>
-  <tr>
-    <td>Behavior 01-A</td>
+  </tr>
+  
+  <tr>  
+  <td>Behavior 01-A</td>
     <td>User is able to browse the programming languages and select the course of their choice.</td>
   </tr>
+  
   <tr>
     <td>Input</td>
     <td>"Add a Programming Language Course"</td>
   </tr>
+  
   <tr>
     <td>Output</td>
     <td>Query the programming language courses that are offered</td>
   </tr>
+  
   <tr>
     <td>Completion</td>
     <td>False</td>
   </tr>
+  
 </table>
 
 ## Setup and Use
