@@ -64,6 +64,7 @@ Coding Fundamentals: Create an appplication for students to learn how to code de
 
 <details>
 <summary>User stories and specifications</summary>
+</details>
 <table>
   <tr>
     <th> Story 01 </th>
@@ -87,8 +88,7 @@ Coding Fundamentals: Create an appplication for students to learn how to code de
     <td>Completion</td>
     <td>False</td>
   </tr>
-<table>
-</details>
+</table>
 
 ## Setup and Use
 
