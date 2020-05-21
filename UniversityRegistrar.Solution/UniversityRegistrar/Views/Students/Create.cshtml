@@ -8,27 +8,75 @@
 
 @using (Html.BeginForm())
 {
-    @Html.LabelFor(model => model.StudentName)
-    @Html.TextBoxFor(model => model.StudentName)
-    
-    @Html.LabelFor(model => model.StudentId)
-    @Html.TextBoxFor(model => model.StudentId)
-    
-    @Html.LabelFor(model => model.Major)
-    @Html.TextBoxFor(model => model.Major)
-    
-    @Html.LabelFor(model => model.DateEnrolled)
-    @Html.TextBoxFor(model => model.DateEnrolled)
-    
-    @Html.LabelFor(model => model.CurrentTerm)
-    @Html.TextBoxFor(model => model.CurrentTerm)
-    
-    @Html.LabelFor(model => model.CurrentYear)
-    @Html.TextBoxFor(model => model.CurrentYear)
-
-    @Html.LabelFor(model => model.Course)
+  @Html.AntiForgeryToken()
+  @Html.ValidationSummary(true, "", new { @class = "text-danger"})
+  <div class = "form-group row">
+    @Html.LabelFor(model => model.StudentName, htmlAttributes: new { @class = "col-form-label col-md-2"})
+    <div class="col-md-10">
+    @Html.EditorFor(model => model.StudentName, new { htmlAttributes = new { @class = "form-control"}})
+    @Html.ValidationMessageFor(model => model.StudentName, "", new { @class = "text-danger"})
+    </div>
+    @* @Html.TextBoxFor(model => model.StudentName) *@
+  </div>
+  
+  <div class="form-group row">
+    @Html.LabelFor(model => model.StudentId, htmlAttributes: new { @class = "col-form-label col-md-2"})
+    <div class="col-md-10">
+    @Html.EditorFor(model => model.StudentId, new { htmlAttributes = new { @class = "form-control"}})
+    @Html.ValidationMessageFor(model => model.StudentId, "", new { @class = "text-danger"})
+    @* @Html.TextBoxFor(model => model.StudentId) *@
+    </div>
+  </div>  
+  
+  <div class="form-group row">
+    @Html.LabelFor(model => model.Major, htmlAttributes: new { @class = "col-form-label col-md-2"})
+    <div class="col-md-10">
+    @Html.EditorFor(model => model.Major, "", new { @class = "form-control"})
+    @Html.ValidationMessageFor(model => model.Major, "", new { @class = "text-danger"})
+    </div>
+    @* @Html.TextBoxFor(model => model.Major) *@
+  </div>
+  
+  <div class="form-group row">
+    @Html.LabelFor(model => model.DateEnrolled, htmlAttributes: new { @class = "col-form-label col-md-2"})
+    <div class="col-md-10">
+    @Html.EditorFor(model => model.DateEnrolled, "", new { @class = "form-control"})
+    @Html.ValidationMessageFor(model => model.DateEnrolled, "", new { @class = "text-danger"})
+    </div>
+    @* @Html.TextBoxFor(model => model.DateEnrolled) *@
+  </div>
+  
+  <div class="form-group row">
+    @Html.LabelFor(model => model.CurrentTerm, htmlAttributes: new { @class = "col-form-label col-md-2"})
+    <div class="col-md-10">
+    @Html.EditorFor(model => model.CurrentTerm, "", new { @class = "form-control"})
+    @Html.ValidationMessageFor(model => model.CurrentTerm, "", new { @class = "text-danger"})
+    </div>
+    @* @Html.TextBoxFor(model => model.CurrentTerm) *@
+  </div>
+  
+  <div class="form-group row">
+    @Html.LabelFor(model => model.CurrentYear, htmlAttributes: new { @class = "col-form-label col-md-2"})
+    <div class="col-md-10">
+    @Html.EditorFor(model => model.CurrentYear, "", new { @class = "form-control"})
+    @Html.ValidationMessageFor(model => model.CurrentYear, "", new { @class = "text-danger"})
+    </div>
+    @* @Html.TextBoxFor(model => model.CurrentYear) *@
+  </div>
+  
+  <div class="form-group row">
+    @Html.LabelFor(model => model.Course, htmlAttributes: new { @class = "col-form-label col-md-2"})
+    <div class="col-md-10">
     @Html.DropDownList("CourseId")
-
+    </div>
+  </div>
+  
+  <div class="form-group row">
     <input type="submit" value="Add New Student" class="btn btn-default" />
+  </div>
+  
+  <div class="form-group row">
+  <p class="btn btn-default">@Html.ActionLink("List of All Students Enrolled", "Index", null, null, new { style = "color: Black;"})</p> 
+  </div> 
 }
-<p>@Html.ActionLink("Show all items", "Index")</p>
+@* <p class="btn btn-default">@Html.ActionLink("List of All Students Enrolled", "Index")</p> *@
