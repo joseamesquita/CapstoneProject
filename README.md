@@ -91,16 +91,39 @@ Coding Fundamentals: Create an appplication for students to learn how to code de
 
 ## Setup and Use
 
+## Technologies Used
+* Bootstrap 
+* ASP.NET Core MVC
+* Entity Framework Core
+* HTML/CSS
+* C#
+* Git
+* MySQL Workbench
+* Visual Studio Code 
+
+### Installing MySQL on MacOS
+
+* Enter legacy password encryption
+* Set password (change the password field in appsettings.json from repository to match your password)
+* select finish
+* Git Bash users: Open Terminal and enter the command echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile 
+* Verify MySQL installation by opening Terminal and entering the command mysql -uroot -p{your password here, omitted brackets}. If you gain access to the MySQL command line, installation is complete. An error (e.g., -bash: mysql: command not found) indicates something went wrong.
+
+
 ### Prerequisites
 * Understanding of Markdown and HTML languages 
 * Option 1: [VisualStudioCode](https://www.npmjs.com/)
 
-### Installation 
-1. Navigate to 
-2. Clone the repository:
+### How To Run The Program On Your Machine
+1. cd ~ 
+2. cd Desktop
+3. git clone https://github.com/joseamesquita/CapstoneProject.git
+4. cd CapstoneProject/UniversityRegistrar.Solution/UniversityRegistrar/
+5. dotnet restore
+6. dotnet build 
+7. dotnet ef database update 
+8. dotnet watch run OR dotnet run
 
-### MVP 
-* VisualStudio Code 
 
   
 
